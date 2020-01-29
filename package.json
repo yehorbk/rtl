@@ -13,11 +13,16 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^6.3.1",
+    "eslint-plugin-import": "^2.20.0"
   },
   "scripts": {
-    "start": "tsc ./lib/application-interface.ts | node ./demo.js",
-    "test": "node ./tests/application-interface.test.js"
+    "start": "npm run-script build || node ./demo.js",
+    "build": "tsc",
+    "test": "node ./tests/*.js",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:dump": "eslint --print-config ./.eslintrc.json"
   },
   "repository": {
     "type": "git",

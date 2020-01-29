@@ -1,3 +1,3 @@
-export class Application {
-    
+export abstract class Application {
+    abstract main(args?: string[]);
 }
