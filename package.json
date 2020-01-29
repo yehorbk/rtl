@@ -1,0 +1,44 @@
+{
+  "name": "application-interface",
+  "version": "0.0.1",
+  "description": "A library that allows to implement the main class of the application and use it to manage the application process.",
+  "main": "demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "start": "tsc ./lib/application-interface.ts | node ./demo.js",
+    "test": "node ./tests/application-interface.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehorbk/application-interface.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "ts",
+    "js",
+    "application",
+    "startup",
+    "entry",
+    "entry point",
+    "main",
+    "interface"
+  ],
+  "author": "Yehor Bublyk <e.bublyk1010@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yehorbk/application-interface/issues"
+  },
+  "homepage": "https://github.com/yehorbk/application-interface#readme"
+}
