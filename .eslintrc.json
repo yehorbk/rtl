@@ -25,6 +25,9 @@
         "@typescript-eslint/indent": ["error", 4],
         "class-methods-use-this": "off",
         "strict": "off",
-        "import/prefer-default-export": "off"
+        "import/prefer-default-export": "off",
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "arrow-parens": [2, "as-needed"]
     }
 }

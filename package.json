@@ -18,11 +18,12 @@
     "eslint-plugin-import": "^2.20.0"
   },
   "scripts": {
-    "start": "npm run-script build || node ./demo.js",
+    "start": "npm run-script build | npm run-script pep-start",
     "build": "tsc",
     "test": "node ./tests/*.js",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
-    "eslint:dump": "eslint --print-config ./.eslintrc.json"
+    "eslint:dump": "eslint --print-config ./.eslintrc.json",
+    "pep-start": "node ./lib/pep.js -f demo.js"
   },
   "repository": {
     "type": "git",
