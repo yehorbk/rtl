@@ -11,6 +11,11 @@ A library that allows to implement the `main` class of the application and use i
 3. Select file: put the file name after the `-f` key
 4. Push arguments to application: put the arguments after `-o` key
 
+# Requirements
+- Class must be extended of `Application`
+- `Main` must be a __static function__
+
+
 # Scripts
 - `npm start` - build and run application with pep
 - `npm test` - run tests
