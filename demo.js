@@ -2,7 +2,8 @@ const { Application } = require('./build/application');
 
 class Demo extends Application {
     static main(args) {
-        console.log(args);
+        const { argv } = process;
+        console.dir({ argv, args });
     }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "program-entry-point",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "A library that allows to implement the main class of the application and use it to manage the application process.",
   "main": "demo.js",
   "directories": {
