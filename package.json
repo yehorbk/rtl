@@ -4,7 +4,7 @@
   "description": "A library that allows to implement the main class of the application and use it to manage the application process.",
   "main": "demo.js",
   "bin": {
-    "rtl": "./lib/loader.js"
+    "rtl": "./bin/cli.js"
   },
   "directories": {
     "lib": "lib",
@@ -23,10 +23,10 @@
   "scripts": {
     "start": "npm run-script build ; npm run-script rtl-run",
     "build": "tsc ; eslint --fix ./lib/*.js",
+    "rtl-run": "rtl -f demo.js",
     "test": "node ./tests/*.js",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
-    "eslint:dump": "eslint --print-config ./.eslintrc.json",
-    "rtl-run": "node ./lib/loader.js -f demo.js"
+    "eslint:dump": "eslint --print-config ./.eslintrc.json"
   },
   "repository": {
     "type": "git",
