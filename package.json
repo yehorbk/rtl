@@ -1,6 +1,6 @@
 {
   "name": "@genericst/rtl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that provides bootstrap functionality and process management tools for JavaScript applications",
   "main": "demo.js",
   "bin": {
