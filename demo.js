@@ -1,4 +1,4 @@
-const { Application } = require('./build/application');
+const { Application } = require('./rtl-components');
 
 class Demo extends Application {
     static main(args) {
