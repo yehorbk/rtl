@@ -10,18 +10,33 @@ If you have a troubles with that commands try to run with `sudo`.
 
 # How to use
 ## Syntax
-> $ rtl [options] file
-
-## Run
-1. Run with **rtl** (default): `rtl -f demo.js`
-2. Run with **node** (custom): `node ./bin/cli.js -f demo.js`
+> ```$ rtl [options]```
 
 ## Command Line Arguments
 - `-f`: select file
 - `-o`: push arguments to application
 
+## Run
+1. Run with **rtl** (default): `rtl -f demo.js`
+2. Run with **node** (custom): `node ./bin/cli.js -f demo.js`
+
+## Demo
+```
+const { Application } = require('./rtl-components');
+
+class Demo extends Application {
+    static main(args) {
+        const { argv } = process;
+        console.dir({ argv, args });
+    }
+}
+
+module.exports = Demo;
+```
+
 # Requirements
 - Entry class must be extended of `Application`
+- Entry class must be exported from the file
 - `Main` must be a **static function**
 - Only **`use strict`**, **imports/exports**, **global variables** and **classes** allowed in the file
 
@@ -34,4 +49,4 @@ If you have a troubles with that commands try to run with `sudo`.
 - `npm run-script eslint` - check for syntax mistakes
 
 # Author
-**Yehor Bublyk**: [GitHub](https://duckduckgo.com "The best search engine for privacy") • [Twitter](https://duckduckgo.com "The best search engine for privacy")
+**Yehor Bublyk**: [GitHub](https://github.com/yehorbk) • [Twitter](https://twitter.com/thisisyehorbk)
