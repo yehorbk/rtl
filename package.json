@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yehorbk/program-entry-point.git"
+    "url": "git+https://github.com/yehorbk/rtl.git"
   },
   "keywords": [
     "javascript",
@@ -49,7 +49,7 @@
   "author": "Yehor Bublyk <e.bublyk1010@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yehorbk/program-entry-point/issues"
+    "url": "https://github.com/yehorbk/rtl/issues"
   },
-  "homepage": "https://github.com/yehorbk/program-entry-point#readme"
+  "homepage": "https://github.com/yehorbk/rtl#readme"
 }
