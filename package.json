@@ -1,7 +1,7 @@
 {
   "name": "rtl",
   "version": "1.0.0",
-  "description": "A library that allows to implement the main class of the application and use it to manage the application process.",
+  "description": "A library that provides bootstrap functionality and process management tools for JavaScript applications",
   "main": "demo.js",
   "bin": {
     "rtl": "./bin/cli.js"
@@ -33,15 +33,17 @@
     "url": "git+https://github.com/yehorbk/program-entry-point.git"
   },
   "keywords": [
-    "typescript",
     "javascript",
-    "ts",
-    "js",
-    "application",
-    "startup",
-    "entry",
-    "entry point",
+    "typescript",
+    "javascript-library",
+    "typescript-library",
+    "library",
+    "entrypoint",
     "main",
+    "startup-script",
+    "runtime",
+    "rtl",
+    "process",
     "interface"
   ],
   "author": "Yehor Bublyk <e.bublyk1010@gmail.com>",
