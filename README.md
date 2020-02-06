@@ -2,7 +2,12 @@
 A library that provides bootstrap functionality and process management tools for JavaScript applications.
 It allows to extend and `Application` class and implement the `main` function in JavaScript.
 
-# Installation
+# NPM Installation
+```
+$ npm install --save @genericst/rtl
+```
+
+# GitHub Installation
 - Run `npm install` to install dependencies
 - Run `npm build` to build .ts files into .js
 - Run `npm link` to create a temporary link to library cli  
@@ -10,7 +15,9 @@ If you have a troubles with that commands try to run with `sudo`.
 
 # How to use
 ## Syntax
-> ```$ rtl [options]```
+```
+$ rtl [options]
+```
 
 ## Command Line Arguments
 - `-f`: select file
