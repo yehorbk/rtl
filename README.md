@@ -56,4 +56,4 @@ module.exports = Demo;
 - `npm run-script eslint` - check for syntax mistakes
 
 # Author
-**Yehor Bublyk**: [GitHub](https://github.com/yehorbk) • [Twitter](https://twitter.com/thisisyehorbk)
+**Yehor Bublyk**: [GitHub](https://github.com/yehorbk) • [Twitter](https://twitter.com/yehorbk)
